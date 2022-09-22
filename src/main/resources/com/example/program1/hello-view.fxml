@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.control.ColorPicker?>
+<VBox alignment="TOP_CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.program1.Program1Controller"
+      prefWidth="800"
+      prefHeight="500">
+
+    <ToolBar>
+        <Button fx:id="pencil"
+                text="Карандаш"/>
+        <Separator/>
+        <Button fx:id="brush"
+                text="Кисть"/>
+        <Separator/>
+        <Button fx:id="rectangle"
+                text="Прямоугольник"/>
+        <Separator/>
+        <Button fx:id="fill"
+                text="Заливка"/>
+        <Separator/>
+        <Button fx:id="pipette"
+                text="Пипетка"/>
+        <Separator/>
+        <Separator/>
+        <ColorPicker fx:id="colorPicker"/>
+        <Separator/>
+        <Separator/>
+        <Separator/>
+        <Separator/>
+        <Button fx:id="save"
+                text="Сохранить"/>
+    </ToolBar>
+
+    <Pane fx:id="locationField"
+          prefHeight="1000"/>
+
+</VBox>
